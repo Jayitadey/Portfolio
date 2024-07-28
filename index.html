@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">Jayita Dey</h1>
+            <nav>
+                <a href="#about" class="px-4">About</a>
+                <a href="#skills" class="px-4">Skills</a>
+                <a href="#projects" class="px-4">Projects</a>
+                <a href="#contact" class="px-4">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto py-8">
+        <section id="about" class="my-8">
+            <h2 class="text-2xl font-bold mb-4">About Me</h2>
+            <p>
+                I am B.tech 3rd year Student specializing in Artificial Intelligence in Machine Learning. I am passionate about solving complex problems and delivering high-quality solutions.
+            </p>
+        </section>
+
+        <section id="skills" class="my-8">
+            <h2 class="text-2xl font-bold mb-4">Skills</h2>
+            <ul class="list-disc list-inside">
+                <li>C</li>
+                <li>C++</li>
+                <li>JAVA</li>
+                <li>HTML, CSS</li>
+                <li>Java Script</li>
+                <li>Python(Basic)</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="my-8">
+            <h2 class="text-2xl font-bold mb-4">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-4 shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">Project 1: E-commerce Platform</h3>
+                    <p class="mb-4">Developed a full-featured e-commerce platform using Java, Spring Boot, and Hibernate. Implemented features such as user authentication, product management, and order processing. Integrated payment gateways and third-party APIs for enhanced functionality.</p>
+                    <a href="#" class="text-blue-600">View Project</a>
+                </div>
+                <div class="bg-white p-4 shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">Project 2: Social Media Application</h3>
+                    <p class="mb-4">Created a scalable social media application with real-time messaging, user profiles, and a content feed. Utilized Java, Spring MVC, and WebSocket for real-time communication. Implemented robust security measures and optimized performance for high traffic.</p>
+                    <a href="#" class="text-blue-600">View Project</a>
+                </div>
+                <div class="bg-white p-4 shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">Project 3: Inventory Management System</h3>
+                    <p class="mb-4">Built an inventory management system for a retail business, featuring stock tracking, supplier management, and reporting tools. Leveraged Java, Spring Boot, and MySQL to create a reliable and efficient solution that improved operational efficiency.</p>
+                    <a href="#" class="text-blue-600">View Project</a>
+                </div>
+                <div class="bg-white p-4 shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">Project 4: Online Learning Platform</h3>
+                    <p class="mb-4">Developed an online learning platform that offers courses, quizzes, and progress tracking. Used Java, Spring Boot, and Thymeleaf for server-side rendering. Enhanced user experience with responsive design and interactive features.</p>
+                    <a href="#" class="text-blue-600">View Project</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="my-8">
+            <h2 class="text-2xl font-bold mb-4">Contact</h2>
+            <form id="contact-form" class="bg-white p-4 shadow-md">
+                <div class="mb-4">
+                    <label for="name" class="block text-sm font-bold mb-2">Name</label>
+                    <input type="text" id="name" class="w-full p-2 border border-gray-300 rounded" required>
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-sm font-bold mb-2">Email</label>
+                    <input type="email" id="email" class="w-full p-2 border border-gray-300 rounded" required>
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-sm font-bold mb-2">Message</label>
+                    <textarea id="message" class="w-full p-2 border border-gray-300 rounded" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="bg-blue-600 text-white py-2 px-4 rounded">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto text-center">
+            &copy; 2024 Jayita Dey. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
